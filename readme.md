@@ -10,11 +10,10 @@ This project uses a Python script to check if a user's current location is withi
 
 ## Installation
 
-You will need Python 3 and the following libraries: `picket`, `matplotlib`, `gmplot`, and `re`. If these are not already installed, you can add them to your Python environment using pip:
+You will need Python 3 and the following library: `gmplot`. If these is not already installed, you can add them to your Python environment using pip:
 
 ```
-bash
-pip install matplotlib gmplot
+pip install gmplot
 ```
 
 ## Running the Project
@@ -22,8 +21,7 @@ pip install matplotlib gmplot
 To run the project, simply run the geofence_check.py script in a Python environment where you can provide user input:
 
 ```
-bash
-python geofence_check.py
+python main.py
 ```
 
 The script will prompt you to enter your current location in degrees, minutes, and seconds format (e.g., 19°07’24.6"N 72°50’06.1"E). It will then check if your location is within the geofence and create an HTML file with a Google Map showing the geofence and your location.
